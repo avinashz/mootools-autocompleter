@@ -1,0 +1,71 @@
+.holder{
+	position:relative;
+	
+}
+.holder p, .holder h1, .holder h3{
+	font-family: 'Junge', serif;
+	font-weight: 400; 
+	text-shadow: 1px 1px 3px #ccc;
+}
+
+.holder h3
+{
+	font-size:35px;	
+	margin-bottom:10px;
+	font-weight:bold;
+}
+
+.loading {
+background: url("../img/completer.gif") no-repeat left top;
+width: 16px;
+height: 11px;
+position: absolute;
+display: none;
+}
+
+.result-div-ul {
+z-index: 1000;
+float: left;
+min-width: 160px;
+padding: 4px 0;
+margin: 1px 0 0;
+list-style: none;
+background-color: white;
+border: 1px solid #CCC;
+border: 1px solid rgba(0, 0, 0, 0.2);
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius: 5px;
+-webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+-moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+-webkit-background-clip: padding-box;
+-moz-background-clip: padding;
+background-clip: padding-box;
+}
+
+.result-div-ul a {
+display: block;
+padding: 3px 15px;
+clear: both;
+font-weight: normal;
+line-height: 18px;
+color: #333;
+white-space: nowrap;
+text-decoration: none;
+font-size: 12px;
+}
+
+.result_holder {
+position: absolute;
+display: none;
+height: auto;
+width: auto;
+}
+
+.result-div-ul li > a:hover, .result-div-ul .active > a, .result-div-ul .active > a:hover {
+color: white;
+text-decoration: none;
+background-color: #222;
+color:#FFF;
+}

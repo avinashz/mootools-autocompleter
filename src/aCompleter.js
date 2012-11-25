@@ -1,3 +1,10 @@
+/*
+Author: Avinash Zala (Expert Developer http://www.xpertdeveloper.com)
+Help: http://www.xpertdeveloper.com
+
+MooTools Auto Completer Class called aCompleter.
+
+*/
 var aCompleter = new Class({
 	//implements
 	Implements: [Options, Events],
